@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color: aqua;
+    overflow: hidden;
+}
+
+.maincontainer{
+  background-image: url("bg3.gif");
+  background-size: 100vh 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+    width: 100%;
+    height: 100vh;
+  
+}
+.superman{
+   background-image: url(superman.gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 200px;
+   height: 400px;
+   position: absolute;
+   bottom: 3%;
+   left: 3%;
+   transition: .5s;
+}
+.devil{
+   background-image: url(output-onlinegiftools\ \(1\).gif);
+   background-repeat: no-repeat;
+   background-size: cover;
+   width: 250px;
+   height: 250px;
+   position: absolute;
+   bottom: 3%;
+   right: 0%;
+}
+
+/* .animateSuperman{
+ animation: supermanjump 0.9s linear;
+}
+
+@keyframes supermanjump {
+    0%{
+        bottom: 3%;
+    }
+    50%{
+        bottom: 30%;
+    }
+    100%{
+        bottom: 3%;
+    }
+} */
+.devilani{
+    animation: devilanimation 4s linear infinite ;
+
+}
+
+@keyframes devilanimation{
+    0%{
+        right: -3%;
+    }
+    100%{
+        right: 100%;
+    }
+}
